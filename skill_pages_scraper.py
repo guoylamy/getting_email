@@ -14,7 +14,7 @@ fail_url = []
 
 def get_all_skills():
     urls = list()
-    with open(path_data + 'tmp80.csv', 'r') as csvFile:
+    with open(path_data + 'all_urls.csv', 'r') as csvFile:
         reader = csv.reader(csvFile)
         for row in reader:
 #            urls.append(row[0])
