@@ -4,8 +4,9 @@ import selenium.webdriver.firefox.options as firefox_options
 
 
 # For Windows
-PATH_CHROME_DRIVER=r"chromedriver.exe"
-PATH_FIREFOX_DRIVER=r"geckodriver.exe"
+# PATH_CHROME_DRIVER=r"chromedriver.app"
+# PATH_FIREFOX_DRIVER=r"geckodriver.exe"
+PATH_CHROME_DRIVER="/home/amy/Summer Intern/Email/Zen/chromedriver"
 
 
 def get_headless_chrome():
